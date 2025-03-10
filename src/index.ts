@@ -40,7 +40,12 @@ export default {
             width: 100%;
         }
         iframe {
-            width: 100%;
+			border: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
             border-radius: 10px;
             box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.2);
         }
